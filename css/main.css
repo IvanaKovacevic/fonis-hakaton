@@ -834,3 +834,9 @@ Media Queries Style
   background: -moz-linear-gradient(#0a1219, white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#0a1219, white); /* Standard syntax */
 }
+
+#mapa{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
