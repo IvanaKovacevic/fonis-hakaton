@@ -3,6 +3,12 @@
 /* ==========================================================================
 Global Styles
 ========================================================================== */
+*{
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -12,16 +18,14 @@ body {
 
 .sep {
   max-width: 80px;
+  margin: 40px auto;
   border: 2px solid #0d0d0d;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .light-sep {
   max-width: 80px;
   border: 2px solid #fff;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px auto;
 }
 
 /* ==========================================================================
@@ -198,13 +202,15 @@ Navigation Style
   background: #000000;
   margin-bottom: 0;
   border: none;
+  display: inline-block;
 }
 .navbar-default .navbar-header {
-  width: 28%;
+  width: 25%;
   padding-right: 15px;
 }
 .navbar-default .nav-wrap {
   width: 50%;
+  text-align: center;
 }
 .navbar-default .nav > li > a {
   font-size: 14px;
@@ -224,10 +230,18 @@ Navigation Style
 }
 .navbar-default .social-media {
   float: right;
-  padding: 0 15px;
+  width: 25%;
+  position: relative;
 }
+
+.custom-pos{
+  position: absolute;
+  right: 0;
+}
+
 .navbar-default .social-media i {
   font-size: 22px;
+
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -374,7 +388,7 @@ Services Style
 ========================================================================== */
 #services {
   background: #0a1219; /* For browsers that do not support gradients */
-  padding: 20px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -714,9 +728,9 @@ Contact Us Style
     /* ==========================================================================
 Google Map Style
 ========================================================================== */
-#map {
-  width: 100%;
-  height: 400px;
+#map{
+  margin-top: 30px;
+  height: 450px;
 }
 
     /* ==========================================================================
@@ -724,8 +738,7 @@ Footer Map Style
 ========================================================================== */
 footer {
   background: #000000;
-  padding: 60px 0;
-  text-align: center;
+  text-align: right;
 }
 
 footer h1 {
@@ -734,7 +747,8 @@ footer h1 {
 }
 
 footer .social {
-  margin: 40px 0;
+  margin: 20px 0;
+  font-size: 12px;
 }
 
 footer .social a {
@@ -768,7 +782,7 @@ Media Queries Style
   }
 
   .navbar-fixed-top .navbar-collapse{
-    max-height: 420px !important;
+    max-height: 430px !important;
   }
 
   .burger-menu span {
@@ -886,12 +900,32 @@ Media Queries Style
   }
 }
 
+@media (max-width: 1199px)  {
+  .navbar-default .nav ul  {
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  .navbar-default .nav > li > a {
+    padding: 30px 5px;
+  }
+  #map{
+    height: 550px;
+  }
+}
+
+#background {
+  background: #1c4250;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
 .bg{
-  background: url(../img/likSediVelikaSlika.png);
-  height: 600px;
+  background: url(../img/likSediVelikaSlika.png) no-repeat;
+  height: 750px;
   background-position: center center;
   background-size: cover;
-  margin-top: 80px;
+  margin-top: 75px;
 }
 
 .btn{
@@ -903,7 +937,7 @@ Media Queries Style
   border-radius: 4px;
   color: white;
   font-size: 25px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 60px;
   transition: all .7s ease-in-out;
   font-weight: 600;
@@ -921,20 +955,4 @@ Media Queries Style
   background: #0a1219;
   padding: 0;
   margin-top: -3px;
-}
-
-.gradient-bg {
-
-  background: #0a1219; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#0a1219, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#0a1219, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#0a1219, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#0a1219, white); /* Standard syntax */
-}
-
-#mapa{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
 }
