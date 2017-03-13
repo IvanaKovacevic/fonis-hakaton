@@ -21,6 +21,28 @@ $(document).ready(function () {
         });
     });
 
+    /***************** [=] --> [x] ******************/
+
+    $('.burger-menu').on('click', function(){
+      $(this).toggleClass('dropdown-open');
+    })
+
+
+    /**** [menu item] --> [=] ****/
+
+    $('.navbar-collapse ul li a').on('click', function() {
+      $(".navbar-collapse").collapse('hide');
+    })
+
+    /**** scroll [open menu] --> [=] ****/
+
+    $(window).scroll(function (){
+      if ($('.navbar-collapse ul li').offset().top > 100){
+        $('.navbar-collapse').collapse('hide');
+        $('.burger-menu').removeClass('dropdown-open');
+      }
+    })
+
     /***************** Scroll Spy ******************/
 
     $('body').scrollspy({
@@ -99,11 +121,11 @@ $(document).ready(function () {
     google.maps.event.addDomListener(window, 'load', initialize);
 
     /***************** Wow.js ******************/
-    
+
     new WOW().init();
-    
+
     /***************** Preloader ******************/
-    
+
     var preloader = $('.preloader');
     $(window).load(function () {
         preloader.remove();

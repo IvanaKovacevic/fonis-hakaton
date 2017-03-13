@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 /* ==========================================================================
 Global Styles
@@ -154,7 +154,7 @@ Buttons Styles
 }
 
 /* ==========================================================================
-Layout 
+Layout
 ========================================================================== */
 .dark-bg {
   background: #24242a;
@@ -248,7 +248,7 @@ Navigation Style
   height: 50px;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   height: 50px;
   padding: 0;
   width: 82px;
@@ -314,18 +314,22 @@ Sliders Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #owl-hero .owl-buttons div {
   background: #fff;
   font-size: 24px;
   color: #a3a3a3;
   opacity: 1;
 }
+
 #owl-hero .owl-buttons .owl-prev {
   left: -60px;
 }
+
 #owl-hero .owl-buttons .owl-next {
   right: -60px;
 }
+
 #owl-hero .owl-buttons .owl-prev,
 #owl-hero .owl-buttons .owl-next {
   position: absolute;
@@ -373,30 +377,37 @@ Services Style
   padding: 20px 0;
   text-align: center;
 }
+
 #services h2 {
   text-transform: uppercase;
   color: #fff;
 }
+
 #services p {
   color: #fff;
 }
+
 #services .services-box {
   margin-top: 40px;
 }
+
 #services .services-box .col-md-4 {
   margin-bottom: 20px;
 }
+
 #services .services-box .col-md-4 .media-left,
 #services .services-box .col-md-4 .media-right,
 #services .services-box .col-md-4 .media-body {
   padding-right: 30px;
   vertical-align: baseline;
 }
+
 #services .services-box .col-md-4 .media-left p,
 #services .services-box .col-md-4 .media-right p,
 #services .services-box .col-md-4 .media-body p {
   text-align: left;
 }
+
 #services .services-box .col-md-4 .media-left h3,
 #services .services-box .col-md-4 .media-right h3,
 #services .services-box .col-md-4 .media-body h3 {
@@ -404,6 +415,7 @@ Services Style
   color: #fff;
   text-align: left;
 }
+
 #services .services-box .col-md-4 .media-left span,
 #services .services-box .col-md-4 .media-right span,
 #services .services-box .col-md-4 .media-body span {
@@ -418,26 +430,32 @@ Portfolio Style
   padding: 60px 0;
   text-align: center;
 }
+
 #portfolio h2 {
   text-transform: uppercase;
 }
+
 #portfolio p {
   margin-bottom: 40px;
 }
+
 #portfolio .container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
+
 #portfolio .container-fluid .col-lg-4 {
   padding-left: 0;
   padding-right: 0;
 }
+
 #portfolio .portfolio-box {
   display: block;
   position: relative;
   margin: 0 auto;
   max-width: 650px;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption {
   display: block;
   position: absolute;
@@ -453,6 +471,7 @@ Portfolio Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -460,18 +479,22 @@ Portfolio Style
   text-align: center;
   transform: translateY(-50%);
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
 }
+
 #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
+
 #portfolio .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
@@ -483,16 +506,20 @@ Work Process Style
   padding: 60px 0;
   text-align: center;
 }
+
 #work-process .col-lg-3 {
   margin-top: 40px;
 }
+
 #work-process h2 {
   text-transform: uppercase;
 }
+
 #work-process h4 {
   text-transform: uppercase;
   color: #0d0d0d;
 }
+
 #work-process span {
   font-size: 48px;
   color: #0d0d0d;
@@ -507,27 +534,33 @@ Fun Facts Style
   padding: 60px 0;
   text-align: center;
 }
+
 #fun-facts .col-lg-3 {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 #fun-facts h2 {
   text-transform: uppercase;
   color: #fff;
 }
+
 #fun-facts p {
   color: #fff;
 }
+
 #fun-facts h4 {
   text-transform: uppercase;
   color: #fff;
 }
+
 #fun-facts .number {
   color: #fff;
   font-weight: 700;
   padding: 10px 0;
   margin: 0;
 }
+
 #fun-facts span {
   font-size: 48px;
   color: #fff;
@@ -541,21 +574,26 @@ Our Team Style
   padding: 60px 0;
   text-align: center;
 }
+
 #team h2 {
   text-transform: uppercase;
 }
+
 #team .team {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 #team .team h4 {
   margin-top: 20px;
   text-transform: uppercase;
   font-weight: 700;
 }
+
 #team .team p {
   color: #a3a3a3;
 }
+
 #team .team a {
   color: #0d0d0d;
   font-size: 22px;
@@ -565,6 +603,7 @@ Our Team Style
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #team .team a:hover,
 #team .team a:focus,
 #team .team a:active {
@@ -586,38 +625,47 @@ Testimonials Style
   padding: 60px 0;
   text-align: center;
 }
+
 #testimonials h2 {
   text-transform: uppercase;
   color: #fff;
 }
+
 #testimonials p {
   color: #fff;
 }
+
 #testimonials .item .quote {
   margin: 20px auto;
   width: 80%;
 }
+
 #testimonials .item .quote .right {
   margin-left: 40px;
   font-size: 32px;
   color: #fff;
 }
+
 #testimonials .item .quote .left {
   float: left;
   margin-right: 40px;
   color: #fff;
 }
+
 #testimonials .item h5 {
   color: #fff;
   line-height: 36px;
 }
+
 #testimonials .item h5 span {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 #testimonials .owl-pagination .owl-page.active span {
   background-color: #fff;
 }
+
 #testimonials .owl-pagination .owl-page span {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -636,15 +684,19 @@ Contact Us Style
   padding: 60px 0;
   text-align: center;
 }
+
 #contact h2 {
   text-transform: uppercase;
 }
+
 #contact form {
   margin: 40px 0;
 }
+
 #contact .form-group {
   margin-bottom: 35px;
 }
+
 #contact .form-control {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -653,6 +705,7 @@ Contact Us Style
   color: #0d0d0d;
   min-height: 45px;
 }
+
 #contact textarea {
   height: 140px;
   resize: none;
@@ -674,13 +727,16 @@ footer {
   padding: 60px 0;
   text-align: center;
 }
+
 footer h1 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 footer .social {
   margin: 40px 0;
 }
+
 footer .social a {
   color: #fff;
   margin-left: 20px;
@@ -690,11 +746,13 @@ footer .social a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 footer .social a:hover,
 footer .social a:focus,
 footer .social a:active {
   color: #a3a3a3;
 }
+
 footer h6 {
   text-transform: uppercase;
   color: #fff;
@@ -708,54 +766,93 @@ Media Queries Style
   .navbar-default {
     background: #000000;
   }
+
+  .navbar-fixed-top .navbar-collapse{
+    max-height: 420px !important;
+  }
+
+  .burger-menu span {
+    position: relative;
+    display: block;
+    top: 0;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .burger-menu.dropdown-open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.dropdown-open span:nth-child(1){
+    transform: rotate(45deg);
+    height: 3px;
+  }
+
+  .burger-menu.dropdown-open span:nth-child(3){
+    transform: rotate(-45deg);
+    height: 3px;
+    top: -13px;
+  }
+
   .navbar-default .navbar-header {
     width: 100%;
     padding-right: 0;
     background: #000000;
   }
+
   .navbar-default .navbar-header .navbar-brand {
     height: auto;
   }
+
   .navbar-default .navbar-header .navbar-brand img {
     width: 82px;
     height: 52px;
   }
+
   .navbar-default .nav-wrap {
     width: 100%;
   }
+
   .navbar-default .navbar-toggle {
     padding-top: 25px;
     padding-bottom: 25px;
     border: none;
   }
+
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
   }
+
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:active {
     background: none;
   }
+
   .navbar-default .navbar-left,
   .navbar-default .navbar-right {
     float: none !important;
   }
+
   .navbar-default .navbar-toggle {
     display: block;
   }
-  .navbar-default .navbar-collapse {
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
+
   .navbar-default .navbar-collapse.collapse {
     display: none !important;
   }
+
   .navbar-default .navbar-nav {
     float: none !important;
     margin-top: 7.5px;
   }
+
   .navbar-default .navbar-nav > li {
     float: none;
   }
+
   .navbar-default .collapse.in {
     display: block !important;
   }
@@ -826,7 +923,7 @@ Media Queries Style
   margin-top: -3px;
 }
 
-.gradient-bg {                    
+.gradient-bg {
 
   background: #0a1219; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#0a1219, white); /* For Safari 5.1 to 6.0 */
