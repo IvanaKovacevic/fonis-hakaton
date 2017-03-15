@@ -921,11 +921,11 @@ Media Queries Style
 }
 
 .bg{
-  background: url(../img/likSediVelikaSlika.png) no-repeat;
-  height: 750px;
+  background: url(../img/likSediVelikaSlika.png);
+  height: 600px;
   background-position: center center;
   background-size: cover;
-  margin-top: 75px;
+  margin-top: 80px;
 }
 
 .btn{
