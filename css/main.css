@@ -628,7 +628,7 @@ Our Team Style
 Testimonials Style
 ========================================================================== */
 #testimonials {
-  background-image: url("../img/testimonials/Testimonials.jpg");
+  background-image: url("../img/umestoNogu.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -671,6 +671,11 @@ Testimonials Style
   line-height: 36px;
 }
 
+#testimonials .item h6 {
+  color: #fff;
+  line-height: 36px;
+}
+
 #testimonials .item h5 span {
   font-weight: 700;
   text-transform: uppercase;
@@ -685,10 +690,10 @@ Testimonials Style
   border-radius: 50%;
   background: transparent;
   opacity: 1;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
     /* ==========================================================================

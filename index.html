@@ -38,6 +38,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!--slider scripts-->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jssor.slider-22.2.16.debug.js"></script>
+    <script src="js/jssor.slider-22.2.16.min.js"></script>
+    <script src="js/jssor.slider-22.2.16.mini.js"></script>
+
 </head>
 
 <body>
@@ -61,22 +67,27 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <div class="col-md-8 nav-wrap">
+                    <div class="col-md-7">
                         <ul class="nav navbar-nav text-center">
-                            <li><a href="#welcome" class="page-scroll">Prijavi se!</a></li>
-                            <li><a href="#services" class="page-scroll">O projektu</a></li>
-                            <li><a href="#portfolio" class="page-scroll">Vesti</a></li>
-                            <li><a href="#testimonials" class="page-scroll">Kompanije</a></li>
-                            <li><a href="#contact" class="page-scroll">Kontakt</a></li>
+                            <li class="navmenu"><a href="#welcome" class="page-scroll">Prijavi se!</a></li>
+                            <li class="navmenu"><a href="#services" class="page-scroll">O projektu</a></li>
+                            <li class="navmenu"><a href="#portfolio" class="page-scroll">Vesti</a></li>
+                            <li class="navmenu"><a href="#testimonials" class="page-scroll">Kompanija</a></li>
+                            <li class="navmenu"><a href="#testimonials" class="page-scroll">Partneri</a></li>
+                            <li class="navmenu"><a href="#contact" class="page-scroll">Kontakt</a></li>
+                            
+                        </ul>
+                                                
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="nav navbar-nav text-center">
+                            <li><a href="https://www.facebook.com/fonis.rs/" target="_blank"><i style="font-size:20px" class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/fonis_fon?lang=en" target="_blank"><i style="font-size:20px" class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/fonis_fon/" target="_blank"><i style="font-size:20px" class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
-                    <div class="social-media hidden-sm hidden-xs">
-                        <ul class="nav navbar-nav custom-pos">
-                            <li><a href="https://www.facebook.com/fonis.rs/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/fonis_fon?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/fonis_fon/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
                     </div>
+                    
                 </div>
             </div>
         </nav>
@@ -166,8 +177,8 @@
         </div>
     </section>
 
-    <!-- Portfolio
-	============================================= -->
+     <!--Portfolio
+	 =============================================-->
     <section id="portfolio">
         <h2>Vesti</h2>
             <hr class="sep">
@@ -216,27 +227,27 @@
     ============================================= -->
     <section id="testimonials">
         <div class="container">
-            <h2>Kompanija</h2>
-            <hr class="light-sep">
-            <p>What Clients Say About Us</p>
+            <div class="item">
+            <img src="img/sbbLogo.png">
+            <br><br><br>
+            <h6>Vodeći operator digitalne i analogne kablovske televizije, širokopojasnog interneta i fiksne telefonije u Srbiji.</h6>
+            </div>
             <div id="owl-testi" class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="quote">
-                        <h5>Vest o kompaniji 1</h5>
+                        <h5>Decenijsko iskustvo u pružanju digitalnog signala svojim korisnicima – još 2006. godine prvi uvode digitalnu televiziju, lansiranjem usluge Total TV.</h5>
 
                     </div>
                 </div>
                 <div class="item">
                     <div class="quote">
-                        <i class="fa fa-quote-left left fa-2x"></i>
-                        <h5>Citat o kompaniji 1 <span>Bla</span>.<i class="fa fa-quote-right right fa-2x"></i></h5>
+                        <h5>Zahvaljujući pružanju najvećih brzina protoka podataka, drže lidersku poziciju u oblasti širokopojasnog interneta.</h5>
 
                     </div>
                 </div>
                 <div class="item">
                     <div class="quote">
-                        <i class="fa fa-quote-left left fa-2x"></i>
-                        <h5>Citat o kompaniji 2 <span>Bla</span>.<i class="fa fa-quote-right right fa-2x"></i></h5>
+                        <h5>Digitalna fiksna telefonija puštena je u rad oktobra 2012. godine, a trenutno se nalaze na visokom drugom mestu među operatorima fiksne telefonije u Srbiji, sa tendencijom daljeg rasta i razvoja.</h5>
 
                     </div>
                 </div>
@@ -248,12 +259,12 @@
 	============================================= -->
     <section id="work-process">
         <div class="container">
-            <h2>Logoi sponzora</h2>
+            <h2>Partneri</h2>
             <hr class="sep">
             <div class="row wow fadeInUp" data-wow-delay=".3s">
                 <div class="col-lg-3">
-                    <span class="icon-chat"></span>
-                    <h4>Logo1</h4>
+                    <img src="img/logoIRCmali.jpg">
+                    <h4>IRC FON</h4>
                 </div>
                 <div class="col-lg-3">
                     <span class="icon-circle-compass"></span>
@@ -272,26 +283,26 @@
     </section>
     <!-- Some Fune Facts
 	============================================= -->
-    <section id="fun-facts">
+     <section id="fun-facts">
         <div class="container">
             <h2>Zanimljivosti</h2>
             <hr class="light-sep">
-            <p>Fun Facts</p>
+            
             <div class="row wow fadeInUp" data-wow-delay=".3s">
                 <div class="col-lg-4">
                     <span class="icon-happy"></span>
-                    <h2 class="number timer">367</h2>
-                    <h4>Hehe</h4>
+                    <h2 class="number timer">96</h2>
+                    <h4> Takmičara </h4>
                 </div>
                 <div class="col-lg-4">
                     <span class="icon-trophy"></span>
-                    <h2 class="number timer">150</h2>
-                    <h4>Project Done</h4>
+                    <h2 class="number timer"> 3 </h2>
+                    <h4>Uspešna hakatona</h4>
                 </div>
                 <div class="col-lg-4">
                     <span class="icon-documents"></span>
-                    <h2 class="number timer">10000</h2>
-                    <h4>Lines Of Code</h4>
+                    <h2 class="number timer"> 65536 </h2>
+                    <h4> Linija koda </h4>
                 </div>
             </div>
         </div>
