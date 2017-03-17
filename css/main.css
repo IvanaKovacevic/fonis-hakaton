@@ -918,11 +918,12 @@ Media Queries Style
   background: #1c4250;
   padding-top: 5px;
   box-sizing: border-box;
+  margin-top: 0px;
 }
 
 .bg{
   background: url(../img/likSediVelikaSlika.png);
-  height: 600px;
+  height: 750px;
   background-position: center center;
   background-size: cover;
   margin-top: 80px;
@@ -937,8 +938,8 @@ Media Queries Style
   border-radius: 4px;
   color: white;
   font-size: 25px;
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   transition: all .7s ease-in-out;
   font-weight: 600;
   font-family: 'Lato', sans-serif;
@@ -956,3 +957,81 @@ Media Queries Style
   padding: 0;
   margin-top: -3px;
 }
+.koordinatori {
+  width: 400px;
+  height: 250px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.head {
+  width: 185px;
+  text-align: center;
+}
+
+.koordinatori h3{
+  margin-top: 0;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.natasa {
+  position: relative;
+  background: url("../img/nata.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: contain;
+  height: 185px;
+  width: 185px;
+  overflow: hidden;
+  transition: all .5s ease;
+
+}
+
+.milijana{
+  position: relative;
+  background: url("../img/milijana.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: contain;
+  height: 185px;
+  width: 185px;
+  overflow: hidden;
+  transition: all .5s ease;
+
+}
+
+.info {
+  position: absolute;
+  width: 100%;
+  height: 185px;
+  top: 100%;
+  background: rgba(0,0,0, .8);
+  left: 0;
+  transition: all .5s ease;
+}
+.info p:first-of-type {
+  padding-top: 50px;
+}
+
+.info p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.natasa:hover .info {
+  top: 0;
+}
+
+.milijana:hover .info {
+  top: 0;
+}
+
+
